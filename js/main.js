@@ -94,7 +94,52 @@ $(document).ready(function () {
 			}
 		}
 	});
+	$("#doc-carousel").owlCarousel({
+		navigation: false,
+		pagination: true,
+		slideSpeed: 800,
+		paginationSpeed: 800,
+		smartSpeed: 500,
+		autoplay: true,
+		singleItem: true,
+		loop: true,
+		responsive:{
+			0:{
+				items:1
+			},
+			680:{
+				items:2
+			},
+			1000:{
+				items:3
+			},
+	
 
+		}
+	});
+	$("#documents2-carousel").owlCarousel({
+		navigation: false,
+		pagination: true,
+		slideSpeed: 800,
+		paginationSpeed: 800,
+		smartSpeed: 500,
+		autoplay: true,
+		singleItem: true,
+		loop: true,
+		responsive:{
+			0:{
+				items:1
+			},
+			680:{
+				items:2
+			},
+			1000:{
+				items:3
+			},
+	
+
+		}
+	});
 	//*****Counter up js
 
 

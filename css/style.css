@@ -544,9 +544,11 @@ canvas{
 /*---------------7. Services area Starts--------------*/
 
 .services-area {
-	background: #F3F4F3;
+	background: #f4f4f3;
 }
-
+.documents-area {
+	background: #f7e1ed;
+}
 .services-icon i {
 	font-size: 35px;
 	color: #E91E63;
@@ -610,7 +612,18 @@ canvas{
 .single-services:hover .services-content h3 {
 	color: #E91E63;
 }
-
+.single-services a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #E91E63;
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    float: center;
+    text-decoration: none;
+    text-align: center;
+}
 /*--------------- Services area ends --------------*/
 
 /*-------- 8. Number area css starts-----------*/
