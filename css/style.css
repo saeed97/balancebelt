@@ -246,16 +246,28 @@ img {
 /*---------- 4. Nav area css starts -------------*/
 
 .nav-area{
-    height: 65px;
+    height: 68px;
+   
+}
+.nav-area2{
+    height: 80px;
+    background: #E91E63;
 }
 
 .nav-area.sticky_navigation{
     background: #ffffff;
     height: 80px;
+   
+}
+.nav-area2.sticky_navigation{
+    background: #ffffff;
+    height: 80px;
+   
 }
 
 .navbar-nav {
     margin-top: 15px;
+   
 }
 
 .sticky_navigation{
@@ -268,6 +280,7 @@ img {
 
 .sticky_navigation .main-menu{
     margin-top: 0;
+    
 }
 
 .sticky_navigation .navbar-brand, .sticky_navigation .navbar-brand span {
@@ -303,6 +316,7 @@ img {
 
 .sticky_navigation .navbar-brand:hover{
     color: #ffffff;
+    
 }
 
 .main-menu{
@@ -324,6 +338,7 @@ img {
     display: block;
     color: #ffffff;
     font-weight: 800;
+    
 }
 
 .logo {
@@ -445,6 +460,19 @@ canvas{
     text-decoration: none;
     color: #ffffff;
 }
+.banner2-btn {
+    background: #E91E63;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
 
 .welcome-text h3 {
     color: #fff;
@@ -1007,10 +1035,22 @@ canvas{
 
 
 
+/* ------------------- videos __________________*/
 
 
 
-
+.video{
+  position: relative;
+ width :70% auto;
+ height: auto;
+ margin: 0 auto;
+ 
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
 
 
 
